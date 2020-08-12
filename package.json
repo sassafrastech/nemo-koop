@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "config": "^3.3.1",
-    "koop": "^4.0.0"
+    "koop": "^4.0.0",
+    "koop-provider-nemo": "^1.0.0"
   },
   "devDependencies": {
     "@koopjs/cli": "^0.6.2",

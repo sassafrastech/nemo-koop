@@ -1,3 +1,7 @@
 {
-  "port": 8080
+  "port": 8080,
+  "koop-provider-nemo": {},
+  "trimet": {
+    "key": "8A0EBB788E8205888807BAC97"
+  }
 }
