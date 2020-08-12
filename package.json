@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha 'test/**/*.test.js'",
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "config": "^3.3.1",
@@ -15,7 +15,8 @@
   "devDependencies": {
     "@koopjs/cli": "^0.6.2",
     "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4"
   },
   "repository": "",
   "private": true,

@@ -1,4 +1,4 @@
-# koop-cli-new-project
+# Koop for NEMO
 
 A minimal Koop project template from [Koop CLI](https://github.com/koopjs/koop-cli).
 
@@ -27,5 +27,7 @@ $ npm start
 ```
 
 The server will be running at `http://localhost:8080` or at the port specified at the configuration.
+
+Type `rs` + <kbd>Enter</kbd> to restart the active server.
 
 For more details, check the [Koop CLI documentation](https://github.com/koopjs/koop-cli/blob/master/README.md).
