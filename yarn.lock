@@ -553,7 +553,7 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.1.tgz#e1e82e4f3e999e2cfd61b161280d16a111f86428"
   integrity sha512-zg7Hz2k5lI8kb7U32998pRRFin7zJlkfezGJjUc2heaD4Pw2wObakCDVzkKztTm/Ln7eiVvYsjqak0Ed4LkMDA==
 
-axios@^0.19.0:
+axios@0.19.2, axios@^0.19.0:
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
@@ -2448,14 +2448,15 @@ koop-output-geoservices@^2.0.0:
   dependencies:
     featureserver "^2.15.0"
 
-koop-provider-nemo@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/koop-provider-nemo/-/koop-provider-nemo-1.1.0.tgz#c253cbf901966dd7feb27367f4ce3f32d451abbf"
-  integrity sha512-w2D35XJHEtmypxZJDTq/pCO3w7YbV1Jpt5i9SC5MP8D8x2/J+kuFsVJgqvM/71If+SqP0uDZI/z+a6on1mijgA==
+koop-provider-nemo@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/koop-provider-nemo/-/koop-provider-nemo-1.2.2.tgz#a14b2b301d669e78d735dc0e79ebb70e6663aa83"
+  integrity sha512-cRIlZ3trypxW73yJ368nTVBx6u4mF4rEW53O8Q/QEoUqT8mosiggp9JGh3bljfiMdYSySgN0yQv8IsiV2+XwnQ==
   dependencies:
+    axios "0.19.2"
     config "3.3.1"
     koop "4.0.1"
-    request "2.88.2"
+    lodash "4.17.20"
 
 koop@4.0.1, koop@^4.0.0:
   version "4.0.1"
@@ -2522,7 +2523,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash@^4.12.0, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
+lodash@4.17.20, lodash@^4.12.0, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
