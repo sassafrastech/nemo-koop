@@ -9,6 +9,15 @@ Push your commits, then `yarn run deploy`.
 
 ## Development
 
+When developing locally, link the Provider so you don't need to keep reinstalling it:
+
+```shell script
+cd koop-provider-nemo
+yarn link
+cd ../nemo-koop
+yarn link koop-provider-nemo
+```
+
 ### Testing
 
 This project uses [mocah](https://www.npmjs.com/package/mocha) as the testing framework and [chaijs](https://www.chaijs.com/) as the assertion library. All test files in the `test` directory should have the special extension `.test.js`, which will be executed by the command:
