@@ -943,7 +943,7 @@ concat-stream@^1.6.1:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-config@3.3.1, config@^3.2.5, config@^3.3.1:
+config@3.3.1, config@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/config/-/config-3.3.1.tgz#b6a70e2908a43b98ed20be7e367edf0cc8ed5a19"
   integrity sha512-+2/KaaaAzdwUBE3jgZON11L1ggLLhpf2FsGrfqYFHZW22ySGv/HqYIXrBwKKvn+XZh1UBUjHwAcrfsSkSygT+Q==
@@ -2308,39 +2308,19 @@ koop-output-geoservices@^2.0.0:
   dependencies:
     featureserver "^2.15.0"
 
-koop-provider-nemo@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/koop-provider-nemo/-/koop-provider-nemo-1.0.0.tgz#7f0b54a94543c1eb24fe78f3b36f5b8d23adb8ca"
-  integrity sha512-p8fKT/6g53ve6xGdTEfFI7/Dlg890YiE+YvcUeig34FevS65cOASI3ubbL8UTnFK7FtVmoE5jWiLKZmjoVBdkg==
+koop-provider-nemo@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/koop-provider-nemo/-/koop-provider-nemo-1.1.0.tgz#c253cbf901966dd7feb27367f4ce3f32d451abbf"
+  integrity sha512-w2D35XJHEtmypxZJDTq/pCO3w7YbV1Jpt5i9SC5MP8D8x2/J+kuFsVJgqvM/71If+SqP0uDZI/z+a6on1mijgA==
   dependencies:
-    config "^3.2.5"
-    koop "^3.17.0"
-    request "^2.88.0"
+    config "3.3.1"
+    koop "4.0.1"
+    request "2.88.2"
 
 koop@4.0.1, koop@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/koop/-/koop-4.0.1.tgz#83a9a1f1a43eba4bdf173faf0945b9ab9f9f9e4f"
   integrity sha512-LgnncuFLEcHpgV1HohLqUToxaPRhBqnOiH5uSqsRDF5Mdk39hXobXjm8cHEt0H7tkDiPcJNOm7eSGNDULvctgQ==
-  dependencies:
-    "@hapi/joi" "^17.1.0"
-    "@koopjs/logger" "^2.0.6"
-    body-parser "^1.19.0"
-    chalk "^4.0.0"
-    compression "^1.7.4"
-    config "^3.3.1"
-    cors "^2.8.5"
-    easy-table "^1.1.1"
-    ejs "^3.1.2"
-    express "^4.17.1"
-    koop-cache-memory "^1.1.0"
-    koop-localfs "^1.1.2"
-    koop-output-geoservices "^2.0.0"
-    lodash "^4.17.15"
-
-koop@^3.17.0:
-  version "3.19.1"
-  resolved "https://registry.yarnpkg.com/koop/-/koop-3.19.1.tgz#aa3950e193c95505f209e5e9086dba45be12bbe6"
-  integrity sha512-81YrlPVkveNOI7YYboTloYMTQdoYfPryB/vUiFKFBgp7CF6K1LuUpjmUSjS2vE7YHO/OnRScnyDpf2BurPjs/g==
   dependencies:
     "@hapi/joi" "^17.1.0"
     "@koopjs/logger" "^2.0.6"
@@ -3271,7 +3251,7 @@ replace-ext@1.0.0:
   resolved "https://registry.yarnpkg.com/replace-ext/-/replace-ext-1.0.0.tgz#de63128373fcbf7c3ccfa4de5a480c45a67958eb"
   integrity sha1-3mMSg3P8v3w8z6TeWkgMRaZ5WOs=
 
-request@2.88.2, request@^2.88.0:
+request@2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
