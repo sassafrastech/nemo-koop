@@ -6,13 +6,16 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha 'test/**/*.test.js'",
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "serve": "pm2 startOrRestart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js"
   },
   "dependencies": {
     "config": "3.3.1",
     "koop": "4.0.1",
     "koop-output-geojson": "1.1.2",
-    "koop-provider-nemo": "1.0.0"
+    "koop-provider-nemo": "1.0.0",
+    "pm2": "4.4.1"
   },
   "devDependencies": {
     "@koopjs/cli": "0.6.3",
