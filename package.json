@@ -10,6 +10,7 @@
   "dependencies": {
     "config": "^3.3.1",
     "koop": "^4.0.0",
+    "koop-output-geojson": "^1.1.2",
     "koop-provider-nemo": "^1.0.0"
   },
   "devDependencies": {
