@@ -3,9 +3,9 @@
 Created using the [Koop CLI](https://github.com/koopjs/koop-cli) template.
 See the [specification](https://koopjs.github.io/docs/usage/koop-core) for more details.
 
-## Configuration
+## Production
 
-This project is configured with [config](https://www.npmjs.com/package/config). As a community practice, it is recommanded to namespace the configuration for plugins in order to avoid any potential key conflict.
+Push your commits, then `yarn run deploy`.
 
 ## Development
 

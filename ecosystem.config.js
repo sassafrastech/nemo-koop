@@ -13,7 +13,7 @@ module.exports = {
       user: 'deploy',
       host: ['koop.getnemo.org'],
       ref: 'origin/main',
-      repo: 'git@github.com:cooperka/nemo-koop.git',
+      repo: 'https://github.com/cooperka/nemo-koop.git',
       path: '/home/deploy/nemo-koop',
       'post-deploy': 'yarn install; yarn run serve',
     },
