@@ -1,7 +1,6 @@
 # Koop for NEMO
 
-A minimal Koop project template from [Koop CLI](https://github.com/koopjs/koop-cli).
-
+Created using the [Koop CLI](https://github.com/koopjs/koop-cli) template.
 See the [specification](https://koopjs.github.io/docs/usage/koop-core) for more details.
 
 ## Configuration

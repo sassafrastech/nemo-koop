@@ -1,7 +1,8 @@
 {
   "name": "nemo-koop",
-  "version": "0.1.0",
-  "description": "A project template for Koop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Koop server for NEMO",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha 'test/**/*.test.js'",
@@ -19,10 +20,13 @@
     "mocha": "^8.0.1",
     "nodemon": "^2.0.4"
   },
-  "repository": "",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooperka/nemo-koop.git"
+  },
   "keywords": [
     "koop",
-    "app"
+    "app",
+    "nemo"
   ]
 }
