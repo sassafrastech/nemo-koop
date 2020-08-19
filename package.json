@@ -9,16 +9,16 @@
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "config": "^3.3.1",
-    "koop": "^4.0.0",
-    "koop-output-geojson": "^1.1.2",
-    "koop-provider-nemo": "^1.0.0"
+    "config": "3.3.1",
+    "koop": "4.0.1",
+    "koop-output-geojson": "1.1.2",
+    "koop-provider-nemo": "1.0.0"
   },
   "devDependencies": {
-    "@koopjs/cli": "^0.6.2",
-    "chai": "^4.2.0",
-    "mocha": "^8.0.1",
-    "nodemon": "^2.0.4"
+    "@koopjs/cli": "0.6.3",
+    "chai": "4.2.0",
+    "mocha": "8.1.1",
+    "nodemon": "2.0.4"
   },
   "repository": {
     "type": "git",
