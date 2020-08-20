@@ -2448,10 +2448,10 @@ koop-output-geoservices@^2.0.0:
   dependencies:
     featureserver "^2.15.0"
 
-koop-provider-nemo@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/koop-provider-nemo/-/koop-provider-nemo-1.2.2.tgz#a14b2b301d669e78d735dc0e79ebb70e6663aa83"
-  integrity sha512-cRIlZ3trypxW73yJ368nTVBx6u4mF4rEW53O8Q/QEoUqT8mosiggp9JGh3bljfiMdYSySgN0yQv8IsiV2+XwnQ==
+koop-provider-nemo@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/koop-provider-nemo/-/koop-provider-nemo-1.2.3.tgz#6263416b41b2f37fee84b0f770264b1fab69ffc4"
+  integrity sha512-ZtMXgenWoscWz0hXzsecfPhCrdFjLH9xiwTU6gI4foSq9vPpxpNx/s12Cqioz/hM5waVMGTm9ko2azPpdIG1Hg==
   dependencies:
     axios "0.19.2"
     config "3.3.1"
