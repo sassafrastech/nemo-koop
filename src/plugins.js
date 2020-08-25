@@ -18,7 +18,7 @@ const plugins = [
       before: (request, callback) => {
         const { method, url } = request;
         // Log incoming requests for diagnostics.
-        console.debug(`-> ${method} ${url}`);
+        console.debug(`<- ${method} ${url}`);
         callback();
       },
       after: (request, geojson, callback) => {
