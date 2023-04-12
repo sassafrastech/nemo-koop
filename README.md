@@ -7,11 +7,10 @@ Created using the [Koop CLI](https://github.com/koopjs/koop-cli) template. See t
 
 ### Provision a brand new server
 
-1. Edit the host in `ecosystem.config.js` if needed
-1. Set up your DNS to point to the new server
-
 Locally (not on the server):
 
+1. Edit the host in `ecosystem.config.js` if needed
+1. Set up your DNS to point to the new server
 1. Run `yarn run provision`
 1. Run `yarn run deploy`
 
@@ -35,18 +34,20 @@ In the app directory (`current/`):
 
 ### Deploy regular updates
 
+Locally (not on the server):
+
 1. Push any new commits
-1. Run `yarn run deploy` locally (not on the server)
+1. Run `yarn run deploy`
 
 ### Monitoring
 
 In the server app directory (`current/`):
 
-1. `yarn run pm2 status`
+1. `yarn run pm2 status` to check if what's running
 
 ## Development
 
-When developing locally, link the Provider so you don't need to keep reinstalling it:
+Tip: When developing locally, link the Provider so you don't need to keep reinstalling it:
 
 ```shell script
 cd koop-provider-nemo
