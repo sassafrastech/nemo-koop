@@ -5,14 +5,35 @@ Created using the [Koop CLI](https://github.com/koopjs/koop-cli) template. See t
 
 ## Production
 
-Provision a brand new server:
+### Provision a brand new server
 
-1. Run `yarn run provision` locally (not on the server)
+1. Edit the host in `ecosystem.config.js` if needed
+1. Set up your DNS to point to the new server
+
+Locally (not on the server):
+
+1. Run `yarn run provision`
+1. Run `yarn run deploy`
+
+On the server...
+
+In the app directory (`current/`):
+
+1. Run `yarn run pm2 startup`, and copy the command it outputs
+
+As root:
+
+1. Paste the command copied above
 1. Set up nginx or some other software to serve the website (see
    [NEMO's prod setup guide](https://github.com/thecartercenter/nemo/blob/main/docs/production-setup.md)
    for an example)
 
-Deploy regular updates:
+In the app directory (`current/`):
+
+1. `yarn run serve`
+1. `yarn run pm2 save` to commit the app to start automatically on server reboot
+
+### Deploy regular updates
 
 1. Push any new commits
 1. Run `yarn run deploy` locally (not on the server)
