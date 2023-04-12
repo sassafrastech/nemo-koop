@@ -5,14 +5,17 @@ Created using the [Koop CLI](https://github.com/koopjs/koop-cli) template. See t
 
 ## Production
 
-Initial provisioning for new server:
+Provision a brand new server:
 
-1. `yarn run provision`
+1. Run `yarn run provision` locally (not on the server)
+1. Set up nginx or some other software to serve the website (see
+   [NEMO's prod setup guide](https://github.com/thecartercenter/nemo/blob/main/docs/production-setup.md)
+   for an example)
 
-Regular updates:
+Deploy regular updates:
 
 1. Push any new commits
-1. `yarn run deploy`
+1. Run `yarn run deploy` locally (not on the server)
 
 ## Development
 
