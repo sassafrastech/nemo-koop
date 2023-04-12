@@ -38,6 +38,12 @@ In the app directory (`current/`):
 1. Push any new commits
 1. Run `yarn run deploy` locally (not on the server)
 
+### Monitoring
+
+In the server app directory (`current/`):
+
+1. `yarn run pm2 status`
+
 ## Development
 
 When developing locally, link the Provider so you don't need to keep reinstalling it:
